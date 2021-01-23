@@ -1,152 +1,194 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title> Woof and Tweet </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Woofer and Tweeter</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <div class="audioh1 gy-10">
-            <h1> Audio projects are our passion</h1>
-            <h1>Lets create pleasing sounds for the ear</h1>
-          </div>
-          <div class="wooferlogo">
-            <div id="wooferpicture">
-              <img src="..\img\tweet.png" class="img-thumbnail" alt="Woofer and Tweeter Logo" width="100%">
-            </div>
-            <div id="wooferlogoparagraph">
-              <p>Woofer+Tweeter operates as a resource to those who wish to create music, record a podcast, find the perfect top liner, or discover their exact production needs, all in a way that makes sense for their budget and what they’re expressing. </p>
-  
-              <p>Working primarily in analog and acoustic settings, I’ve focused on making the art of recording accessible and attainable for as many people as I possible can by providing basic information, thoughtful perspectives, and the practical magic that keeps small and large projects alive. </p>
-                
-              <p>My goal is to serve independent artists who express themselves through recording. Respecting and nurturing their endeavor by providing my time inside and outside of the studio. I work best with those who have not been encouraged to or guided towards recording to capture their expressions or connect and promote other areas of their professional and creative lives.</p>
-                
-              <p>I like to start by meeting with you and discussing what you’re interested in, how much time you have, and what you hope to experience, learn, or gain from your project. Then we’ll plan a second gathering to sketch out the building blocks of what achieving your vision will take. After that, we get to gettin’ while the gettin’s goooooooooooooooooooood.</p>
-            </div>
-          </div>
-          <div>
-            <h1 id="recentprojects">Recent Projects</h1>
-          </div>
 
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
-              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
-              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
-              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></li>
-              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..\img\loam1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..\img\loam2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..\img\loam3.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..\img\loam4.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..\img\loam6.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..\img\loam7.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..\img\loam8.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..\img\loam9.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Woof and Tweet </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Woofer and Tweeter</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
             </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="audioh1 gy-10">
+    <h1> Audio projects are our passion</h1>
+    <h1>Lets create pleasing sounds for the ear</h1>
+  </div>
+  <div class="wooferlogo">
+    <div id="wooferpicture">
+      <img src="..\img\tweet.png" class="img-thumbnail" alt="Woofer and Tweeter Logo" width="100%">
+    </div>
+    <div id="wooferlogoparagraph">
+      <p>Woofer+Tweeter operates as a resource to those who wish to create music, record a podcast, find the perfect top
+        liner, or discover their exact production needs, all in a way that makes sense for their budget and what they’re
+        expressing. </p>
 
-            <div>
-              <p id="loamparagraph">Elana Low’s LOAM was released sweetly into the world on October 4th, 2019. 
-                Please listen to and purchase LOAM here, and if you’re still dying to know more please visit our blog. </p>
-            </div>
-          </div>
+      <p>Working primarily in analog and acoustic settings, I’ve focused on making the art of recording accessible and
+        attainable for as many people as I possible can by providing basic information, thoughtful perspectives, and the
+        practical magic that keeps small and large projects alive. </p>
 
-          <h1 id="fum"> FUM Productions </h1>
+      <p>My goal is to serve independent artists who express themselves through recording. Respecting and nurturing
+        their endeavor by providing my time inside and outside of the studio. I work best with those who have not been
+        encouraged to or guided towards recording to capture their expressions or connect and promote other areas of
+        their professional and creative lives.</p>
 
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..\img\fum1.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..\img\fum2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..\img\fum3.png" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </a>
-          </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+      <p>I like to start by meeting with you and discussing what you’re interested in, how much time you have, and what
+        you hope to experience, learn, or gain from your project. Then we’ll plan a second gathering to sketch out the
+        building blocks of what achieving your vision will take. After that, we get to gettin’ while the gettin’s
+        goooooooooooooooooooood.</p>
+    </div>
+  </div>
+  <div>
+    <h1 id="recentprojects">Recent Projects</h1>
+  </div>
 
-    </body>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="..\img\loam1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..\img\loam2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..\img\loam3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..\img\loam4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..\img\loam6.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..\img\loam7.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..\img\loam8.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..\img\loam9.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+
+  </div>
+  <div>
+    <p id="loamparagraph">Elana Low’s LOAM was released sweetly into the world on October 4th, 2019.
+      Please listen to and purchase LOAM here, and if you’re still dying to know more please visit our blog. </p>
+  </div>
+
+  <h1 id="fum"> FUM Productions </h1>
+
+  <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="..\img\fum1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..\img\fum2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..\img\fum3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+  <div>
+    <p id="fumparagraph">
+      After a year of conceiving, plotting, recording, designing, and hoping FUM Network excitedly released three
+      shows
+      and successfully ran an IndieGogo campaign to keep the shows going. The network has taken a pause due to the
+      ongoing
+      pandemic, but will be back soon to bring you more Conversations Between Cousins and Oh, Fuck.
+    </p>
+  </div>
+
+  <h1 class="audioh1">About Me</h1>
+
+  <div class="wooferlogo">
+    <div id="hannahpic">
+      <img src="../img/hannahpic.jpeg" class="img-thumbnail" alt="Woofer and Tweeter Logo" width="100%">
+    </div>
+    <div id="wooferlogoparagraph">
+      <p> Born in Texas, I came to NYC to study music engineering at NYU Tisch. Since then I have stayed in New York
+        City and made a life here. </p>
+        <p> In my free time you can catch me at a farmers market, reading, and working on getting into grad school</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
-

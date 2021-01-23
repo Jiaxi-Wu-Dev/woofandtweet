@@ -47,3 +47,22 @@
     margin-top: 30px;
 }
 
+#fumparagraph{
+    text-align: center;
+    font-size: 30px;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+#hannahpic{
+    width: 40%;
+}
+
+#aboutme{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-brand{
+    margin-left: 35px;
+}
