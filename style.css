@@ -39,8 +39,8 @@
 #loamparagraph{
     text-align: center;
     font-size: 30px;
-    margin-left:25px;
-    margin-right:25px;
+    margin-left:50px;
+    margin-right:50px;
 }
 
 #fum{
@@ -51,8 +51,8 @@
 #fumparagraph{
     text-align: center;
     font-size: 30px;
-    margin-left:25px;
-    margin-right:25px;
+    margin-left:50px;
+    margin-right:50px;
 }
 
 #hannahpic{
@@ -66,4 +66,9 @@
 
 .navbar-brand{
     margin-left: 35px;
+}
+
+.navbar{
+    margin-right: 50px;
+    margin-left: 50px;
 }
